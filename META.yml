@@ -21,7 +21,7 @@ provides:
     version: 0
   Catmandu::Z3950:
     file: lib/Catmandu/Z3950.pm
-    version: 0.01
+    version: 0.02
 requires:
   Catmandu: 0.0302
   Moo: 1.000003
@@ -29,4 +29,4 @@ requires:
   perl: v5.10.1
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.01
+version: 0.02
