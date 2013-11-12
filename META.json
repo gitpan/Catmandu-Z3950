@@ -4,7 +4,7 @@
       "Wouter Willaert <wouterw@inuits.eu>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "Module::Build version 0.38, CPAN::Meta::Converter version 2.120921",
+   "generated_by" : "Module::Build version 0.4007, CPAN::Meta::Converter version 2.120921",
    "license" : [
       "perl_5"
    ],
@@ -23,14 +23,14 @@
       },
       "configure" : {
          "requires" : {
-            "Module::Build" : "0.38"
+            "Module::Build" : "0.40"
          }
       },
       "runtime" : {
          "requires" : {
             "Catmandu" : "0.0302",
             "Moo" : "1.000003",
-            "ZOOM" : "1.28",
+            "ZOOM" : "0",
             "perl" : "v5.10.1"
          }
       }
@@ -42,7 +42,7 @@
       },
       "Catmandu::Z3950" : {
          "file" : "lib/Catmandu/Z3950.pm",
-         "version" : "0.03"
+         "version" : "0.04"
       }
    },
    "release_status" : "stable",
@@ -51,5 +51,5 @@
          "http://dev.perl.org/licenses/"
       ]
    },
-   "version" : "0.03"
+   "version" : "0.04"
 }

@@ -7,9 +7,9 @@ build_requires:
   Test::Exception: 0
   Test::More: 0
 configure_requires:
-  Module::Build: 0.38
+  Module::Build: 0.40
 dynamic_config: 1
-generated_by: 'Module::Build version 0.38, CPAN::Meta::Converter version 2.120921'
+generated_by: 'Module::Build version 0.4007, CPAN::Meta::Converter version 2.120921'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -21,12 +21,12 @@ provides:
     version: 0
   Catmandu::Z3950:
     file: lib/Catmandu/Z3950.pm
-    version: 0.03
+    version: 0.04
 requires:
   Catmandu: 0.0302
   Moo: 1.000003
-  ZOOM: 1.28
+  ZOOM: 0
   perl: v5.10.1
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.03
+version: 0.04
